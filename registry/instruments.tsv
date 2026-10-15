@@ -1,0 +1,7 @@
+instrument_id	operator	bay	kind	tolerance_ppm	interval_days	state
+IN-ARCTIC	Ava Lin	Bay-A	hygrometer	3	10	active
+IN-BEACON	Ben Ortiz	Bay-B	thermometer	5	20	active
+IN-CEDARS	Cy Noor	Bay-A	pressure gauge	2	7	active
+IN-DRIFTS	Dee Park	Bay-C	precision scale	1	30	active
+IN-EMBERX	Eli Voss	Bay-B	spectrometer	4	14	active
+IN-FJORDS	Fay Cole	Bay-C	depth probe	2	10	retired
