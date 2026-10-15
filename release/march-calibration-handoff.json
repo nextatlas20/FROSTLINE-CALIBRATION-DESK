@@ -1,0 +1,78 @@
+{
+  "snapshot_date": "2096-03-19",
+  "scheduled_count": 4,
+  "service_day_count": 2,
+  "service_days": [
+    {
+      "date": "2096-03-20",
+      "instruments": [
+        {
+          "slot": 1,
+          "instrument_id": "IN-CEDARS",
+          "operator": "Cy Noor",
+          "bay": "Bay-A",
+          "kind": "pressure gauge",
+          "report_id": "RP-204",
+          "completed_at": "2096-03-17T10:00Z",
+          "drift_ppm": -6,
+          "tolerance_ppm": 2,
+          "due_on": "2096-03-24",
+          "reason": "out_of_tolerance",
+          "urgency_points": 140
+        },
+        {
+          "slot": 2,
+          "instrument_id": "IN-DRIFTS",
+          "operator": "Dee Park",
+          "bay": "Bay-C",
+          "kind": "precision scale",
+          "report_id": "RP-205",
+          "completed_at": "2096-02-10T08:00Z",
+          "drift_ppm": 0,
+          "tolerance_ppm": 1,
+          "due_on": "2096-03-11",
+          "reason": "overdue",
+          "urgency_points": 8
+        }
+      ]
+    },
+    {
+      "date": "2096-03-21",
+      "instruments": [
+        {
+          "slot": 1,
+          "instrument_id": "IN-ARCTIC",
+          "operator": "Ava Lin",
+          "bay": "Bay-A",
+          "kind": "hygrometer",
+          "report_id": "RP-202",
+          "completed_at": "2096-03-18T09:20Z",
+          "drift_ppm": 4,
+          "tolerance_ppm": 3,
+          "due_on": "2096-03-28",
+          "reason": "out_of_tolerance",
+          "urgency_points": 110
+        },
+        {
+          "slot": 2,
+          "instrument_id": "IN-BEACON",
+          "operator": "Ben Ortiz",
+          "bay": "Bay-B",
+          "kind": "thermometer",
+          "report_id": "RP-203",
+          "completed_at": "2096-02-25T14:00Z",
+          "drift_ppm": 2,
+          "tolerance_ppm": 5,
+          "due_on": "2096-03-16",
+          "reason": "overdue",
+          "urgency_points": 3
+        }
+      ]
+    }
+  ],
+  "bay_totals": [
+    {"bay": "Bay-A", "instrument_count": 2},
+    {"bay": "Bay-B", "instrument_count": 1},
+    {"bay": "Bay-C", "instrument_count": 1}
+  ]
+}
